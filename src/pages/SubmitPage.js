@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import '../styles/Submit.css';
-import axios from 'axios';
+import apiService from '../utils/apiService';
 import { useState } from 'react';
 
 function SubmitPage() {
@@ -20,13 +20,12 @@ function SubmitPage() {
             ...formData,
             [name]: value,
         });
-        // console.log(formData)
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-        const response = await axios.post('http://localhost:3000/project', formData);
+        const response = await apiService.post('project', formData);
         console.log('response data: ', response.data)
         const { _id } = response.data;
         console.log('_id: ', _id);
