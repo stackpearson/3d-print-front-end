@@ -1,0 +1,41 @@
+.submit {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.submit h2 {
+    margin-top: 2em;
+    font-size: 2em;
+
+}
+
+.form-container {
+    width: 700px;
+    margin: 2em;
+    padding: 2em;
+    overflow-x: auto;
+    border: 2px solid grey;
+    border-radius: 2em;
+
+    /* margin-right: 10vh, 150px, 10vh, 50px; */
+}
+
+.res-container {
+    width: 500px;
+    margin: 2em;
+    padding: 2em;
+    overflow-x: auto;
+    border: 2px solid grey;
+    border-radius: 2em;
+}
+
+.res-container h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
