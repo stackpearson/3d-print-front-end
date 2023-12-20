@@ -17,8 +17,6 @@ function NavComponent() {
                             <NavDropdown title="Clients" id="basic-nav-dropdown">
                                 <NavDropdown.Item><Link to='/submit'>Submit Request</Link></NavDropdown.Item>
                                 <NavDropdown.Item><Link to='/portfolio'>Our Work</Link></NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item><Link to='/contact'>Contact</Link></NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

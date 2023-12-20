@@ -1,0 +1,29 @@
+.portfolio {
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    margin: 10vh 2vw 2vh 2vw;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 650px) {
+    .carousel {
+        margin: 1vh 1vw 1vh 1vw;
+    }
+}
